@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(../Imagenes/design1_image1.jpg);
+    margin:   20px 10%;
+    width: 80vw;
+    height: 40vh;
+    background-size: cover;
+    background-position: 0 30%;
+    padding: .5rem;
+
+}
+
+.titulo{
+    font-family: 'Comic Neue', cursive;
+    font-size: 70px
+}
+
+.eventos {
+    text-align: center;
+    background-color: yellow;
+    width: 1230px;
+    margin: -18px 0px 0px 150px;
+}
+
+.logo{
+   margin: 60px 0px 0px 900px;
+   width:300;
+   height: 200px;
+   
+}
+
+aside{
+    margin-left: 200px;
+    display:block;
+    position:relative;
+    width:100px;
+    height:50px;
+    line-height: 200%;
+    padding: 50px;
+}  
+article{
+   margin: 50px 0px 0px 400px;
+   line-height: 200%;
+}
+.hock1{
+    margin:  -200px 0px 100px 900px;
+    width: 300px;
+}
+
+.about {
+    text-align: center;
+    background-color: yellow;
+    width: 1230px;
+    margin: -18px 0px 0px 150px;
+
+}
+
+
+.contact {
+    text-align: center;
+    background-color: yellow;
+    width: 1230px;
+    margin: -18px 0px 0px 150px;
+}
+
+.hock3{
+    margin: -100px 0px 100px 900px;
+}
+
+.hock2{
+    margin: 0px 0px 100px 900px;
+}
