@@ -47,6 +47,14 @@ article{
    margin: 50px 0px 0px 400px;
    line-height: 200%;
 }
+
+footer {
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(230, 98, 10);
+}
+
 .hock1{
     margin:  -200px 0px 100px 900px;
     width: 300px;
