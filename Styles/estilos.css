@@ -99,3 +99,16 @@ footer {
     background-color: red;
     margin-left: 100px;
 }
+
+.tiform{
+    font-size: 20px;
+}
+
+.maps{
+    display:flex;
+    margin: 1rem;
+    border-radius: 5rem;
+    gap: 1rem;
+    font-size: 20px;
+   margin-left: 400px;
+}

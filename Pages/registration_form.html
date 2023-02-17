@@ -35,7 +35,8 @@
             <article>
                 <h3>Registration Form </h3>
                 <form action="./show_data.html" method="get" >
-
+                     <fieldset>
+                        <legend class="tiform">Personal Data</legend>
                     <div>
                     <label for="pfn">Player's First Name:</label>
                     <input name="player_first_name" type="text" id="pfn">
@@ -62,7 +63,7 @@
                     <label for="gend">Male</label>
                     <input name="male" type="checkbox" id="gend">
                 </div>   
-
+           
                 Grade:
                 <label for="gd">Pre-School</label>
                 <input name="pre_school" type="checkbox" id="gd">
@@ -77,8 +78,11 @@
                 <label for="gd">5st</label>
                 <input name="5st" type="checkbox" id="gd">
 
-                <h4>Which elementary school do you live near?</h4>
-                <h3>Closest School:</h3>
+            </fieldset>
+  
+            <fieldset>
+                <legend class="tiform">Which elementary school do you live near?</legend>
+                <h4>Closest School:</h4>
                 <div>
                 <label for="cs">AJ Katzenmaier</label>
                 <input name="aj_katzenmaier" type="checkbox" id="cs">
@@ -100,7 +104,10 @@
                     <input name="south_elementary" type="checkbox" id="cs">
                 </div>
 
-                <h4>What position(s) do you normally play?(check all that apply)</h4>
+            </fieldset>
+
+            <fieldset>
+                <legend class="tiform">What position(s) do you normally play?(check all that apply)</legend>
                  <div>
                     <label for="pos">Forward</label>
                     <input name="forward" type="checkbox" id="pos">
@@ -115,7 +122,10 @@
                     <input name="goalkeeper" type="checkbox" id="pos">
                  </div>
 
-                 <h4>Uniform Size:</h4>
+                </fieldset>
+ 
+                <fieldset>
+                 <legend class="tiform">Uniform Size:</legend>
                  <div>
                     <label for="uni">Youth Smal</label>
                     <input name="youth_smal" type="checkbox" id="uni">
@@ -138,6 +148,8 @@
                  </div>
                  <label for="uni">Small</label>
                  <input name="small" type="checkbox" id="uni">
+                
+                </fieldset>
 
                 <h4>Permission to Play</h4>
                 <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all 
