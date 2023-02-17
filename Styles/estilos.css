@@ -20,17 +20,19 @@ header{
     font-size: 70px
 }
 
-.eventos {
+.subti{
+    margin:   20px 10%;
+    width: 80vw;
+    padding: .5rem;
     text-align: center;
     background-color: yellow;
-    width: 1230px;
-    margin: -18px 0px 0px 150px;
+   margin-top: -20px;
 }
 
 .logo{
-   margin: 60px 0px 0px 900px;
+   margin: 90px 0px 0px 900px;
    width:300;
-   height: 200px;
+   height: 180px;
    
 }
 
@@ -62,41 +64,26 @@ footer {
     width: 300px;
 }
 
-.about {
-    text-align: center;
-    background-color: yellow;
-    width: 1230px;
-    margin: -18px 0px 0px 150px;
-
-}
-
-
-.contact {
-    text-align: center;
-    background-color: yellow;
-    width: 1230px;
-    margin: -18px 0px 0px 150px;
-}
-
-.rules{
-    text-align: center;
-    background-color: yellow;
-    width: 1230px;
-    margin: -18px 0px 0px 150px;
-}
-
-.cronograma {
-    text-align: center;
-    background-color: yellow;
-    width: 1230px;
-    margin: -18px 0px 0px 150px;
-}
-
-
 .hock3{
     margin: -100px 0px 100px 900px;
 }
 
 .hock2{
     margin: 0px 0px 100px 900px;
+}
+
+.links:link{
+    color:red;
+}
+
+.links:visited{
+    color: violet;
+}
+
+.links:hover{
+    color:yellow;
+}
+
+.links:active{
+    color:rgb(7, 239, 11);
 }
