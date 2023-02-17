@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagenes/Logo_Mighty_ducks-01.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet"> 
+    <title>Mighty Ducks Hockey League</title>
+    <link rel="stylesheet" href="../styles/estilos.css">
+</head>
+<body>
+    <header>
+       <h1 class="titulo">Mighty Ducks Hockey League</h1>
+       <img class="logo" src="../imagenes/Logo_Mighty_ducks-01.png" alt="logo">
+    </header>
+    <main>
+        <section>
+            <h2 class="subti">Form</h2>
+            <aside>
+                <a class="links"   href="../index.html">Home</a> 
+                <div>
+                <a class="links"   href="./aboutmdhl.html">About MDHL</a> 
+                </div>
+                <a class="links"   href="./contact.html">Contact</a>
+                <div>
+                <a class="links"   href="./game_information.html">Game Information</a>
+                </div>
+                <a class="links"   href="./rules.html">Rules</a>
+                <div>
+                <a class="active" class="links"   href="#">Registration Form</a>
+                 </div>
+            </aside>
+            
+            <article>
+                <h3>Registration Form </h3>
+                <form action="./show_data.html" method="get" >
+                     <fieldset>
+                        <legend class="tiform">Personal Data</legend>
+                    <div>
+                    <label for="pfn">Player's First Name:</label>
+                    <input name="player_first_name" type="text" id="pfn">
+                    <label for="ln">Last Name:</label>
+                    <input name="last_name" type="text" id="ln">
+                </div>
+
+                    <label for="stad">Street Address:</label>
+                    <input name="street_address" type="text" id="stad">
+
+                    <div>
+                    <label for="citi">City:</label>
+                    <input name="city" type="text" id="citi">
+                    <label for="zipc">Zip Code:</label>
+                    <input name="zip_code" type="text" id="zipc">
+                </div>
+
+                <div>
+                    <label for="bird">Birth Date(mm/dd/yyyy):</label>
+                    <input name="birth_date" type="date" id="bird">
+                    Gender:
+                    <label  for="gend">Female </label>
+                    <input name="female" type="checkbox" id="gend">
+                    <label for="gend">Male</label>
+                    <input name="male" type="checkbox" id="gend">
+                </div>   
+           
+                Grade:
+                <label for="gd">Pre-School</label>
+                <input name="pre_school" type="checkbox" id="gd">
+                <label for="gd">1st</label>
+                <input name="1st" type="checkbox" id="gd">
+                <label for="gd">2st</label>
+                <input name="2st" type="checkbox" id="gd"> 
+                <label for="gd">3st</label>
+                <input name="3st" type="checkbox" id="gd">
+                <label for="gd">4st</label>
+                <input name="4st" type="checkbox" id="gd">
+                <label for="gd">5st</label>
+                <input name="5st" type="checkbox" id="gd">
+
+            </fieldset>
+  
+            <fieldset>
+                <legend class="tiform">Which elementary school do you live near?</legend>
+                <h4>Closest School:</h4>
+                <div>
+                <label for="cs">AJ Katzenmaier</label>
+                <input name="aj_katzenmaier" type="checkbox" id="cs">
+                 <label for="cs">Marjorie P Hart</label>
+                 <input name="marjorie_p_hart" type="checkbox" id="cs">
+                </div>
+
+                <div>
+                    <label for="cs">Greenbay</label>
+                    <input name="greenbay" type="checkbox" id="cs">
+                    <label for="cs">North Elementary</label>
+                    <input name="north_elementary" type="checkbox" id="cs">
+                </div>
+                 
+                <div>
+                    <label for="cs">Howard A Yeager</label>
+                    <input name="howard_a_yeager" type="checkbox" id="cs">
+                    <label for="cs">South Elementary</label>
+                    <input name="south_elementary" type="checkbox" id="cs">
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend class="tiform">What position(s) do you normally play?(check all that apply)</legend>
+                 <div>
+                    <label for="pos">Forward</label>
+                    <input name="forward" type="checkbox" id="pos">
+                    <label for="pos">Midfield</label>
+                    <input name="midfield" type="checkbox" id="pos">
+                 </div>
+
+                 <div>
+                    <label for="pos">Defense</label>
+                    <input name="defense" type="checkbox" id="pos">
+                    <label for="pos">Goalkeeper</label>
+                    <input name="goalkeeper" type="checkbox" id="pos">
+                 </div>
+
+                </fieldset>
+ 
+                <fieldset>
+                 <legend class="tiform">Uniform Size:</legend>
+                 <div>
+                    <label for="uni">Youth Smal</label>
+                    <input name="youth_smal" type="checkbox" id="uni">
+                    <label for="uni">Medium</label>
+                    <input name="medium" type="checkbox" id="uni">
+                 </div>
+
+                 <div>
+                    <label for="uni">Youth Medium</label>
+                    <input name="youth_medium" type="checkbox" id="uni">
+                    <label for="uni">Large</label>
+                    <input name="large" type="checkbox" id="uni">
+                 </div>
+
+                 <div>
+                    <label for="uni">Youth Large</label>
+                    <input name="youth_large" type="checkbox" id="uni">
+                    <label for="uni">Extra-Large</label>
+                     <input name="extra-large" type="checkbox" id="uni">
+                 </div>
+                 <label for="uni">Small</label>
+                 <input name="small" type="checkbox" id="uni">
+                
+                </fieldset>
+
+                <h4>Permission to Play</h4>
+                <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all 
+                    the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey 
+                    and in consideration for the "League accepting the registrant for its hockey programs and activities, I hereby release, discharge, 
+                    and/or otherwise indemnity MDHL, their employees and associated personnel and volunteers including the facilities used for practices and games, 
+                    against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL 
+                    sponsored activities, which transportation.
+                </p>
+                <p>
+                    By signing below, I herebyagree andauthorizethe above. In addition, by signing below, lalso acknowledge that I have read the cancellation 
+                    policy and agree to its terms.
+                </p>
+                 
+                <label for="signa">Parent/GuardianSignature:</label>
+                <input name="signature" type="text" id="signa">
+                <label for="dat">Date:</label>
+                <input name="date" type="text" id="dat">
+                <input class="button" type="submit" value="Send">
+            </form>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Developed by Juan Bautista Sabaris</p>
+    </footer>
+</body>
+</html>
